@@ -8,6 +8,12 @@
 	input:required {
 			border-left: 4px solid #c33;
 			}
+	input:valid + .invalid{
+		visibility: hidden;
+	}
+	input:invalid + .invalid {
+		visibility: visible;
+	}
 	</style>
 	
 	<body>
@@ -112,6 +118,23 @@
 		<input type="month"
 			class="form-control"
 			value="2018-02" />
+			
+			
+		<h2>This shows validation with CSS</h2>
+		<form>
+		<input type="text"
+		id="username"
+		name="username"
+		pattern="[a-zA-Z]{5,}"
+		placeholder="username"
+		maxlength="30"
+		required
+		/>
+		
+		<div class="invalid">
+			The required user name may only be a series of alphabetical characters.
+		</div>
+		
 		
 		
 		
