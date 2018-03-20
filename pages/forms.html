@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+	<head> 
+		<title>Forms</title>
+	</head>
+	
+	<style>
+	input:required {
+			border-left: 4px solid #c33;
+			}
+	</style>
+	
+	<body>
+		<h1>These are the different types of forms</h1>
+	
+		<h2>This is a search form</h2>
+		<form novalidate class="narrow">
+			<h2 class="h3">Search</h2>
+			
+			<input type="search"
+				id ="search-text"
+				class="form-control"
+				placeholder="search"
+				autofocus />
+		</form>
+	
+	
+		<h2>This is a phone text form</h2>
+		<form>
+		 <input type="tel"
+			id="phone-text"
+			placeholder="Phone Number"
+			required
+			class="form-control">
+		</form>
+		
+		
+		<h2>This is an email form</h2>
+		<form>
+			<input type="email"
+			id ="email-text"
+			placeholder="email address"
+			required
+			class="form-control"
+			>
+		</form>
+		
+		<h2>This is a name form</h2>
+		<form>
+			<input type="text"
+			id ="name-text"
+			placeholder="First and Last Name"
+			required
+			pattern="(.*)\s(.*)"
+			class="form-control"
+			>
+		</form>
+		
+		<h2>This is a url form</h2>
+		<form>
+			<input type="url"
+			id ="phone-text"
+			placeholder="Web Address"
+			class="form-control"
+			>
+		</form>
+		
+		<h2>This is a number form</h2>
+		<form>
+			<input type="number"
+			id ="num-text"
+			placeholder="How many cats do you have?"
+			min="0"
+			max="7"
+			class="form-control"
+			>
+		</form>
+		
+		<h2>This is a list form</h2>
+		<!-- Data list -->
+		<form class="narrow">
+		<input list="colors"
+		placeholder="What color?"/>
+		<datalist id="colors">
+			<option value="Blue">
+			<option value="Red">
+			<option value="Yellow">
+			<option value="Orange">
+			<option value="White">
+		</datalist>
+		</form>
+		
+		
+		<h2>Direction List</h2>
+		<form class="narrow">
+		<input type="text"
+		id="direction-list"
+		list="direction-data"
+		placeholder="Which direction?"
+		class="form-control" />
+		
+		<datalist id="direction-data">
+			<option value="North"></option>
+			<option value="South"></option>
+			<option value="East"></option>
+			<option value="West"></option>
+		</datalist>
+		</form>
+		
+		<h2>Calendar</h2>
+		<form class="narrow">
+		<input type="month"
+			class="form-control"
+			value="2018-02" />
+		
+		
+		
+	</body>
+	
+	
+</html>
+	
