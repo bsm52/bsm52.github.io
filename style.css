@@ -43,7 +43,8 @@ footer {
 .button {
     background-color: #00FFFF;
     border: none;
-    color: white;
+    color: #877D7D;
+    font-weight: bold;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
