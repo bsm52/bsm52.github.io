@@ -84,5 +84,19 @@ footer {
 	width: 500px;
 }
 
+.puppyslot {
+	width: 30%;
+	float: left;
+}
+
+.puppyslot > img {
+	height: 300px;
+	width: 300px;
+}
+
+.puppyslot > a {
+	font-size: 15px;
+	font-family: arial;
+}
 
 
