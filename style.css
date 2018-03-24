@@ -87,6 +87,7 @@ footer {
 .puppyslot {
 	width: 30%;
 	float: left;
+	margin: 15px;
 }
 
 .puppyslot > img {
