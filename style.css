@@ -51,7 +51,7 @@ form > input {
 }
 
 .button {
-    background: linear-gradient(to right, #00FFFF, #3FFF99);
+    background:  #00FFFF;
     border: none;
     color: #877D7D;
     font-weight: bold;
