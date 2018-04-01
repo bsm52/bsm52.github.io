@@ -13,13 +13,17 @@ body {
 	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-}
+}                                                                                                                              
 
 footer {
 	text-align: left;
 	font-size: 10px;
 	font-family: arial;
 	float: left;
+}
+
+.button:hover {
+	background-color: #E0E3E1;
 }
 
 .headername {
@@ -47,7 +51,7 @@ form > input {
 }
 
 .button {
-    background-color: #00FFFF;
+    background: linear-gradient(to right, #00FFFF, #3FFF99);
     border: none;
     color: #877D7D;
     font-weight: bold;
